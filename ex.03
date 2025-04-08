@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Nome e Idade</title>
+</head>
+<body>
+  <script>
+    var nome = prompt("Digite seu nome: ");
+    var idade = prompt("Digite sua idade: ");
+    alert("Olá, " + nome + ", sua idade é " + idade + ".");
+
+  </script>
+</body>
+</html>
