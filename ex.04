@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Áreas de Figuras Planas</title>
+</head>
+<body>
+
+  <script>
+    var baseRet = parseFloat(prompt("Retângulo\nInforme a base:"));
+    var alturaRet = parseFloat(prompt("Retângulo\nInforme a altura:"));
+    var areaRet = baseRet * alturaRet;
+    alert("Área do Retângulo: " + areaRet);
+    
+    
+
+  </script>
+</body>
+</html>
+
+ var ladoQuad = parseFloat(prompt("Quadrado\nInforme o lado:"));
+    var areaQuad = ladoQuad * ladoQuad;
+    alert("Área do Quadrado: " + areaQuad);
+
+
+
+    var diagMaior = parseFloat(prompt("Losango\nInforme a diagonal maior:"));
+    var diagMenor = parseFloat(prompt("Losango\nInforme a diagonal menor:"));
+    var areaLos = (diagMaior * diagMenor) / 2;
+    alert("Área do Losango: " + areaLos);
+
+
+    var baseMaior = parseFloat(prompt("Trapézio\nInforme a base maior:"));
+    var baseMenor = parseFloat(prompt("Trapézio\nInforme a base menor:"));
+    var alturaTrap = parseFloat(prompt("Trapézio\nInforme a altura:"));
+    var areaTrap = ((baseMaior + baseMenor) * alturaTrap) / 2;
+    alert("Área do Trapézio: " + areaTrap);
+
+
+var basePar = parseFloat(prompt("Paralelogramo\nInforme a base:"));
+    var alturaPar = parseFloat(prompt("Paralelogramo\nInforme a altura:"));
+    var areaPar = basePar * alturaPar;
+    alert("Área do Paralelogramo: " + areaPar);
+
+
+        var baseTri = parseFloat(prompt("Triângulo\nInforme a base:"));
+    var alturaTri = parseFloat(prompt("Triângulo\nInforme a altura:"));
+    var areaTri = (baseTri * alturaTri) / 2;
+    alert("Área do Triângulo: " + areaTri);
+
+
+     var raio = parseFloat(prompt("Círculo\nInforme o raio:"));
+    var areaCirc = Math.PI * raio * raio;
+    alert("Área do Círculo: " + areaCirc.toFixed(2));
+
+    
